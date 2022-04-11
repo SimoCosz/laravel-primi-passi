@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $title = 'Hello Word';
     return view('home', compact('title'));
-});
+})->name('home');
 
 Route::get('/contacts', function(){
     $title_contacts = 'Contact Us';
