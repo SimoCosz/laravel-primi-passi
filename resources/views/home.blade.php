@@ -12,6 +12,7 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'Nunito', sans-serif;
+      background-color: #444444;
     }
     
     img{
@@ -22,6 +23,8 @@
     a{
       text-decoration: none;
       color: currentColor;
+      border-radius: 10px;
+      background-color: #555555;
     }
   
     .container{
@@ -31,7 +34,7 @@
   
     .title{
       text-align: center;
-      color: #555555;
+      color: coral;
       font-size: 60px;
     }
   
@@ -39,15 +42,29 @@
       display: flex;
       gap: 20px;
       justify-content: center;
+      align-items: center;
       margin-bottom: 30px;
       background-color: #555555;
-      padding: 20px;
       color: white;
       text-transform: uppercase;
     }
   
     header a:hover{
-      text-decoration: underline
+      border-bottom: 2px solid currentColor;
+      padding: 20px 0;
+    }
+
+    .active{
+      color: coral;
+      font-size: 20px;
+      padding: 20px 0;
+      border-bottom: 3px solid coral;
+      font-weight: bold;
+    }
+
+    a.active:hover{
+      text-decoration: none;
+      border-bottom: 3px solid coral;
     }
   
   
@@ -56,7 +73,7 @@
 </head>
 <body>
   <header>
-    <a href="{{route('home')}}">Home</a>
+    <a class="active" href="{{route('home')}}">Home</a>
     <a href="{{route('contacts')}}"> Contacts </a>
     <a href="{{route('about')}}"> About </a>
     <a href="{{route('gallery')}}"> Gallery </a>
