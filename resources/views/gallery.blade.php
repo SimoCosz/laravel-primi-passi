@@ -49,6 +49,14 @@
     header a:hover{
       text-decoration: underline
     }
+
+    .gallery-wrapper{
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
   
   
   
@@ -65,6 +73,32 @@
   <div class="container">
 
     <h1 class="title">{{$title_gallery}}</h1>
+    <div class="gallery-wrapper">
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/200/300" alt="">
+      </figure>
+    </div>
 
   </div>
 </body>

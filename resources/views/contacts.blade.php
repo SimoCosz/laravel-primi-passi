@@ -71,6 +71,12 @@
       <li>tel: 0103893829</li>
       <li>cell: 3403938278</li>
     </ul>
+    <h2>E-mail</h2>
+    <p>Puoi contattarci tramite mail, ti risponderemo nel più breve tempo possibile.</p>
+    <h2>Telefono</h2>
+    <p>Puoi anche chiamare i nostri uffici che sono aperti dalle 9:00 alle 20:00.</p>
+    <h2>Cellulare</h2>
+    <p>Infine puoi contattarci sul numero di cellulare per eventuali urgenze. Il servizio di chiamata al numero di cellulare è a pagamento.</p>
   </div>
 
 </body>
