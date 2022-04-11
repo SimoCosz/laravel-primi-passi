@@ -34,7 +34,7 @@
 </style>
 <body>
   <div class="container">
-    <h1 class="title">Hello Word</h1>
+    <h1 class="title">{{$title}}</h1>
 
   </div>
 </body>
