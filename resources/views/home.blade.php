@@ -12,7 +12,13 @@
       padding: 0;
       box-sizing: border-box;
       font-family: 'Nunito', sans-serif;
-      background-color: #444444;
+    }
+
+    body{
+      background-image: url('https://birchtree.nyc3.digitaloceanspaces.com/images/wwdc18/dev-dots.png');
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
     }
     
     img{
@@ -24,7 +30,6 @@
       text-decoration: none;
       color: currentColor;
       border-radius: 10px;
-      background-color: #555555;
     }
   
     .container{
@@ -36,6 +41,7 @@
       text-align: center;
       color: coral;
       font-size: 60px;
+      background-color: transparent;
     }
   
     header{
@@ -44,7 +50,7 @@
       justify-content: center;
       align-items: center;
       margin-bottom: 30px;
-      background-color: #555555;
+      background-image: linear-gradient(#444444, transparent);
       color: white;
       text-transform: uppercase;
     }
